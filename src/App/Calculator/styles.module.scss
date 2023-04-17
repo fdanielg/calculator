@@ -1,0 +1,59 @@
+.container {
+  background-color: #000;
+  padding: 32px 0;
+
+  .valueWrapper {
+    margin: 0 32px 32px;
+    padding: 0 16px;
+    background-color: gray;
+    span {
+      display: flex;
+      justify-content: flex-end;
+      height: 17px;
+      color: #fff;
+      text-align: right;
+      font-size: 16px;
+
+    
+    }
+    p {
+      color: #fff;
+      text-align: right;
+      font-size: 32px;
+    }
+  }
+
+  .buttonsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    justify-content: center;
+    max-width: 350px;
+    gap: 8px;
+
+    button {
+      width: 64px;
+      height: 64px;
+      font-size: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+      background-color: #505050;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+
+      &.topButton {
+        background-color: #d4d4d2;
+      }
+
+      &.zeroButton {
+        width: 136px;
+        border-radius: 64px;
+      }
+
+      &.operator {
+        background-color: #ff9500;
+      }
+    }
+  }
+}
